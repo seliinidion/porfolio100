@@ -1,0 +1,274 @@
+body {
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  opacity: 0.8;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #7f858ec0;
+}
+
+
+/*tästä alkaa banner*/
+
+
+.banner {
+    position: relative;
+    height: 500px;
+  }
+  
+  .banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .banner-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+  }
+  
+  .banner-text h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+  }
+  
+  .banner-text h2 {
+    font-size: 7rem;
+    margin-bottom: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+  }
+
+  section {
+    margin-bottom: 2em;
+  }
+
+  .hello {
+    background-color: white;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+
+  }
+
+  h3 {
+    font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+  }
+
+  .pics {
+    background-color: white;
+  }
+
+.pics img {
+    float: left;
+    margin-right: 30px;
+}
+
+.experience {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    width: 350px;
+}
+
+
+
+/*edu*/
+
+h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    margin-bottom: 60px;
+}
+
+.educ {
+  margin-top: 30px;
+}
+
+
+/*edu lop*/
+
+
+/*skills*/
+
+.newsection {
+  text-align: center;
+  color: white;
+}
+
+.skills {
+  margin-top: 0;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5rem;
+}
+
+
+
+/*skills lop*/
+
+
+
+
+/*Tekstiä kuvan päällä*/
+
+.container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 10%;
+}
+
+.darks {
+  width: 100%;
+  display: block;
+  height: 10%;
+  filter: grayscale(100%);
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Tekstin väri */
+  font-size: 24px; /* Tekstin koko */
+  text-align: center; /* Tekstin keskitys */
+  width: 800px;
+}
+
+
+
+
+
+/*jtn jtn*/
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.waviy span {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: relative;
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+/*jtn loppuu*/
+
+
+
+/*DOWNLOAD BUTTON*/
+
+.btn {
+  background-color: white;
+  font-size: 12px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 0.5;
+  padding: 10px 20px;
+  border-radius: 5000px;
+  transition: all 0.3s;
+  opacity: 0.8;
+}
+
+.btn :hover {
+  transform: scale(1.15);
+}
+
+.btn--contact {
+  animation: fade-down 0.5s 0.4s backwards;
+}
+
+.btn--download {
+  padding: 16px 32px;
+  font-size: 16px;
+  position: fixed;
+  bottom: 27px;
+  left: calc(50% - 96px);
+  z-index: 100;
+  box-shadow: 0 6px 23px rgba(0,0,0,.45);
+  animation: fade-up 0.5s 0.4s backwards;
+}
+
+
+
+/*DOWNLOAD BUTTON LOBBUU*/
+
+
+
+/*sos media*/
+
+
+
+/*sos media loppuu*/
+
+
+
+
+
